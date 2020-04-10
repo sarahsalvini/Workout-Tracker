@@ -122,7 +122,7 @@ async function handleFormSubmit(event) {
 
   clearInputs();
   toast.classList.add("success");
-}
+};
 
 function handleToastAnimationEnd() {
   toast.removeAttribute("class");
